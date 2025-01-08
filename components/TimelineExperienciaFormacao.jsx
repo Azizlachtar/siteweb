@@ -74,19 +74,18 @@ export default function TimelinePortifolio(props) {
 
 	return (
 		<VerticalTimeline lineColor={theme.colors.branding}>
-			
 			<VerticalTimelineElement
 				className="vertical-timeline-element--work"
 				contentStyle={{ color: "#000", borderBottom: `8px solid ${theme.colors.branding}`, boxShadow: "0px 0px 0px 0px #ccc" }}
 				iconStyle={{ background: theme.colors.branding, color: "#fff", boxShadow: `0 0 0 0px ${theme.colors.branding}` }}
 				icon={<WorkIcon />}>
 				<TimelineContent>
-					<h3 style={{ color: theme.colors.backgroundSecondary, backgroundColor: theme.colors.branding, padding: "0 6px 0 6px", borderRadius: "4px" }}> Jul 2023</h3>
+					<h3 style={{ color: theme.colors.backgroundSecondary, backgroundColor: theme.colors.branding, padding: "0 6px 0 6px", borderRadius: "4px" }}> Jul 2024 - Dec 2024</h3>
 					<BoldText>
-						{language.experiencePage.timeline.labelCompany}: <span>BH LEASING</span>
+						{language.experiencePage.timeline.labelCompany}: <span>BNP PARIBAS</span>
 					</BoldText>
 					<BoldText>
-						{language.experiencePage.timeline.labelPosition}: <span>Software Engineering Intern</span>
+						{language.experiencePage.timeline.labelPosition}: <span>{language.experiencePage.timeline.doca}</span>
 					</BoldText>
 				</TimelineContent>
 			</VerticalTimelineElement>
@@ -96,12 +95,42 @@ export default function TimelinePortifolio(props) {
 				iconStyle={{ background: theme.colors.branding, color: "#fff", boxShadow: `0 0 0 0px ${theme.colors.branding}` }}
 				icon={<WorkIcon />}>
 				<TimelineContent>
-					<h3 style={{ color: theme.colors.backgroundSecondary, backgroundColor: theme.colors.branding, padding: "0 6px 0 6px", borderRadius: "4px" }}> Jul 2022</h3>
+					<h3 style={{ color: theme.colors.backgroundSecondary, backgroundColor: theme.colors.branding, padding: "0 6px 0 6px", borderRadius: "4px" }}> Feb 2024 - Jun 2024</h3>
 					<BoldText>
-						{language.experiencePage.timeline.labelCompany}: <span>ITGust</span>
+						{language.experiencePage.timeline.labelCompany}: <span>DOCAPOSTE</span>
 					</BoldText>
 					<BoldText>
-						{language.experiencePage.timeline.labelPosition}: <span>Machine Learning Intern</span>
+						{language.experiencePage.timeline.labelPosition}: <span>{language.experiencePage.timeline.doca}</span>
+					</BoldText>
+				</TimelineContent>
+			</VerticalTimelineElement>
+			<VerticalTimelineElement
+				className="vertical-timeline-element--work"
+				contentStyle={{ color: "#000", borderBottom: `8px solid ${theme.colors.branding}`, boxShadow: "0px 0px 0px 0px #ccc" }}
+				iconStyle={{ background: theme.colors.branding, color: "#fff", boxShadow: `0 0 0 0px ${theme.colors.branding}` }}
+				icon={<WorkIcon />}>
+				<TimelineContent>
+					<h3 style={{ color: theme.colors.backgroundSecondary, backgroundColor: theme.colors.branding, padding: "0 6px 0 6px", borderRadius: "4px" }}> Jun 2023 - Aug 2023</h3>
+					<BoldText>
+						{language.experiencePage.timeline.labelCompany}: <span>VERMEG</span>
+					</BoldText>
+					<BoldText>
+						{language.experiencePage.timeline.labelPosition}: <span>{language.experiencePage.timeline.vermeg}</span>
+					</BoldText>
+				</TimelineContent>
+			</VerticalTimelineElement>
+			<VerticalTimelineElement
+				className="vertical-timeline-element--work"
+				contentStyle={{ color: "#000", borderBottom: `8px solid ${theme.colors.branding}`, boxShadow: "0px 0px 0px 0px #ccc" }}
+				iconStyle={{ background: theme.colors.branding, color: "#fff", boxShadow: `0 0 0 0px ${theme.colors.branding}` }}
+				icon={<WorkIcon />}>
+				<TimelineContent>
+					<h3 style={{ color: theme.colors.backgroundSecondary, backgroundColor: theme.colors.branding, padding: "0 6px 0 6px", borderRadius: "4px" }}> Jun 2022- Aug 2022</h3>
+					<BoldText>
+						{language.experiencePage.timeline.labelCompany}: <span>STB Bank Tunisian Company</span>
+					</BoldText>
+					<BoldText>
+						{language.experiencePage.timeline.labelPosition}: <span>{language.experiencePage.timeline.stb}</span>
 					</BoldText>
 				</TimelineContent>
 			</VerticalTimelineElement>
@@ -111,7 +140,7 @@ export default function TimelinePortifolio(props) {
 				iconStyle={{ background: theme.colors.branding, color: "#fff", boxShadow: `0 0 0 0px ${theme.colors.branding}` }}
 				icon={<SchoolIcon />}>
 				<TimelineContent>
-					<h3 style={{ color: theme.colors.backgroundSecondary, backgroundColor: theme.colors.branding, padding: "0 6px 0 6px", borderRadius: "4px" }}>Sep 2022 - Jul 2025</h3>
+					<h3 style={{ color: theme.colors.backgroundSecondary, backgroundColor: theme.colors.branding, padding: "0 6px 0 6px", borderRadius: "4px" }}>Sep 2022 - Jul 2024</h3>
 					<BoldText>
 						{language.experiencePage.timeline.labelInstitution}: <span>{language.experiencePage.timeline.ensit}</span>
 					</BoldText>
@@ -129,7 +158,7 @@ export default function TimelinePortifolio(props) {
 				iconStyle={{ background: theme.colors.branding, color: "#fff", boxShadow: `0 0 0 0px ${theme.colors.branding}` }}
 				icon={<SchoolIcon />}>
 				<TimelineContent>
-					<h3 style={{ color: theme.colors.backgroundSecondary, backgroundColor: theme.colors.branding, padding: "0 6px 0 6px", borderRadius: "4px" }}>Sept 2019 - Jul 2022</h3>
+					<h3 style={{ color: theme.colors.backgroundSecondary, backgroundColor: theme.colors.branding, padding: "0 6px 0 6px", borderRadius: "4px" }}>Sep 2019 - Jul 2021</h3>
 					<BoldText>
 						{language.experiencePage.timeline.labelProfessionalCourse}: <span>{language.experiencePage.timeline.ipeit}</span>
 					</BoldText>
@@ -145,26 +174,11 @@ export default function TimelinePortifolio(props) {
 				className="vertical-timeline-element--work"
 				contentStyle={{ color: "#000", borderBottom: `8px solid ${theme.colors.branding}`, boxShadow: "0px 0px 0px 0px #ccc" }}
 				iconStyle={{ background: theme.colors.branding, color: "#fff", boxShadow: `0 0 0 0px ${theme.colors.branding}` }}
-				icon={<WorkIcon />}>
-				<TimelineContent>
-					<h3 style={{ color: theme.colors.backgroundSecondary, backgroundColor: theme.colors.branding, padding: "0 6px 0 6px", borderRadius: "4px" }}> Aug 2018</h3>
-					<BoldText>
-						{language.experiencePage.timeline.labelCompany}: <span>Internat Schule Birklehof E.V.</span>
-					</BoldText>
-					<BoldText>
-						{language.experiencePage.timeline.labelPosition}: <span>Bursary recipient of the German PASCH program "Schulen: Partner der Zukunft”,</span>
-					</BoldText>
-				</TimelineContent>
-			</VerticalTimelineElement>
-			<VerticalTimelineElement
-				className="vertical-timeline-element--work"
-				contentStyle={{ color: "#000", borderBottom: `8px solid ${theme.colors.branding}`, boxShadow: "0px 0px 0px 0px #ccc" }}
-				iconStyle={{ background: theme.colors.branding, color: "#fff", boxShadow: `0 0 0 0px ${theme.colors.branding}` }}
 				icon={<SchoolIcon />}>
 				<TimelineContent>
 					<h3 style={{ color: theme.colors.backgroundSecondary, backgroundColor: theme.colors.branding, padding: "0 6px 0 6px", borderRadius: "4px" }}>Sep 2015 - Jul 2019</h3>
 					<BoldText>
-						{language.experiencePage.timeline.labelInstitution}: <span>Pioneer High School of ElMenzah 8</span>
+						{language.experiencePage.timeline.labelInstitution}: <span> Manzah 9 Dachraoui High School</span>
 					</BoldText>
 					<BoldText>
 						{language.experiencePage.timeline.labelCategory}: <span>{language.experiencePage.timeline.labelBachelor}</span>

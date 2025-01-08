@@ -110,16 +110,16 @@ export default function _ServicesOffer() {
 				<ScrollAnimation animateIn="fadeIn" animateOnce delay={200}>
 					<CardService>
 						<LineGraph />
-						<h3>{language.servicesOffer.cards.dataAnalytics.title}</h3>
-						<p>{language.servicesOffer.cards.dataAnalytics.contentText}</p>
+						<h3>{language.servicesOffer.cards.bigData.title}</h3>
+						<p>{language.servicesOffer.cards.bigData.contentText}</p>
 					</CardService>
 				</ScrollAnimation>
 
 				<ScrollAnimation animateIn="fadeIn" animateOnce delay={400}>
 					<CardService>
 						<Brain />
-						<h3>{language.servicesOffer.cards.artificialIntelligence.title}</h3>
-						<p>{language.servicesOffer.cards.artificialIntelligence.contentText}</p>
+						<h3>{language.servicesOffer.cards.softwareDevelopment.title}</h3>
+						<p>{language.servicesOffer.cards.softwareDevelopment.contentText}</p>
 					</CardService>
 				</ScrollAnimation>
 				<ScrollAnimation animateIn="fadeIn" animateOnce delay={600}>

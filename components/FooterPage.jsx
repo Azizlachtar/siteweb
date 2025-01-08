@@ -234,7 +234,7 @@ export default function FooterPage(props) {
 	}, []);
 
 	async function getLastCommit() {
-		const response = await fetch("https://api.github.com/repos/nawresZ/Portfolio/commits");
+		const response = await fetch("https://api.github.com/repos/Azizlachtar/Portfolio/commits");
 		const json = await response.json();
 		try {
 			setCommit(json[0].sha.slice(0, 6));
@@ -289,7 +289,7 @@ export default function FooterPage(props) {
 				<ScrollAnimation animateIn="fadeIn" animateOnce delay={400}>
 					<SectionFooterMenu>
 						<FooterTextTitle>{language.footer.labelSourceCode.title}</FooterTextTitle>
-						<FooterTextExternalLink href="https://github.com/nawresZ" target="_blank">
+						<FooterTextExternalLink href="https://github.com/Azizlachtar" target="_blank">
 							Github
 						</FooterTextExternalLink>
 					</SectionFooterMenu>

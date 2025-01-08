@@ -65,15 +65,15 @@ export default function SocialNetworkRowStack() {
 	return (
 		<SocialMediaContainer>
 
-			<ButtonSocialMediaIcon href="https://github.com/nawresZ" target="_blank">
+			<ButtonSocialMediaIcon href="https://github.com/Azizlachtar" target="_blank">
 				<Github />
 			</ButtonSocialMediaIcon>
 
-			<ButtonSocialMediaIcon href="mailto:zaidounnawres@gmail.com" target="_blank">
+			<ButtonSocialMediaIcon href="mailto:aziz.lachtar123@gmail.com" target="_blank">
 				<MailSend />
 			</ButtonSocialMediaIcon>
 
-			<ButtonSocialMediaIcon href="https://tn.linkedin.com/in/nawres-zaidoun/" target="_blank" data-splitbee-event="linkedin-access">
+			<ButtonSocialMediaIcon href="https://www.linkedin.com/in/aziz-lachtar-7908b5239/" target="_blank" data-splitbee-event="linkedin-access">
 				<LinkedinSquare />
 			</ButtonSocialMediaIcon>
 		</SocialMediaContainer>

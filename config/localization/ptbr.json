@@ -10,44 +10,44 @@
 	"landingPage": {
 		"apresentationText": "Bonjour,",
 		"firstTypeText": "le développeur dont vous avez besoin...",
-		"secondTypeText": "Nawres Zaidoun",
-		"resumeText": "Nawres, signifiant 'goéland' en arabe, représente ma soif de connaissance, à l'image de la maîtrise aérienne de cet oiseau. Mon amour pour explorer les vastes domaines des mathématiques et de leurs applications informatiques m'incite à résoudre des problèmes complexes, reflétant ainsi l'exploration infatigable d'un goéland le long du rivage.",
+		"secondTypeText": "Aziz Lachtar",
+		"resumeText":"Je suis un ingénieur logiciel Full Stack passionné, qui aime transformer des idées complexes en solutions numériques fluides et efficaces. Avec une solide expertise en développement logiciel, je prends plaisir à concevoir des systèmes performants et intuitifs. Que ce soit en relevant des défis en ingénierie des données ou en développant des applications web dynamiques, ma curiosité et ma volonté de créer un impact significatif guident mon approche. Au-delà du code, je considère chaque projet comme une opportunité d'innover, d'apprendre et de contribuer à un monde technologique en constante évolution.",
 		"buttonText": "En savoir plus"
 	},
 	"servicesOffer": {
 		"title": "Mes domaines",
 		"cards": {
-			"dataAnalytics": {
-				"title": "Analyse de Données",
-				"contentText": "Experte dans l'analyse de données pour obtenir des insights actionnables, compétente en statistiques, modélisation prédictive et visualisation de données. Utilise SQL, Python et R pour manipuler et analyser les données, expérimentée dans l'application d'algorithmes d'apprentissage automatique pour résoudre des problèmes concrets et améliorer les processus décisionnels."
+			"bigData": {
+				"title": "Big Data",
+				"contentText":"Je possède une compréhension approfondie des techniques de gestion, d'analyse et de visualisation des données, permettant aux organisations de tirer des insights exploitables de vastes ensembles de données diversifiés. En utilisant des outils et des plateformes tels que Hadoop, Spark et Apache Kafka, je conçois et mets en œuvre des pipelines de données évolutifs qui traitent, transforment et analysent efficacement les données en temps réel."
 			},
-			"artificialIntelligence": {
-			"title": "Intelligence Artificielle",
-			"contentText": "Spécialisée dans le développement de solutions en intelligence artificielle pour automatiser les tâches et relever des défis complexes. Compétences en apprentissage automatique, apprentissage profond, traitement automatique du langage naturel et vision par ordinateur. Utilise des frameworks tels que TensorFlow et PyTorch pour construire et implémenter des modèles visant à améliorer l'efficacité et l'innovation."
+			"softwareDevelopment": {
+				"title": "Développement logiciel",
+				"contentText": "Je suis capable de conceptualiser, concevoir et mettre en œuvre des solutions logicielles qui répondent à des défis commerciaux complexes. Avec une maîtrise de plusieurs langages de programmation tels que Python, Java et C++, j'ai développé une gamme diversifiée d'applications, allant des systèmes d'entreprise aux applications mobiles, en utilisant les meilleures pratiques en ingénierie logicielle et les méthodologies agiles tout au long du cycle de développement."
 			},
 			"webDevelopment": {
 				"title": "Développement Web",
-				"contentText": "Maîtrise du développement front-end et back-end pour des applications web centrées utilisateur. Utilise HTML, CSS, JavaScript et Spring boot . Concentré sur la conception réactive et l'optimisation de la performance."
+				"contentText": "Je me spécialise dans la création de sites web visuellement captivants avec une fonctionnalité fluide sur toutes les plateformes. Compétent en HTML5, CSS3 et JavaScript, je crée des interfaces utilisateur engageantes qui laissent une impression durable. Mon expertise s'étend également au développement back-end en utilisant des frameworks comme SpringBoot et .NET, garantissant des applications web robustes et évolutives adaptées aux besoins des clients."
 			},
 			"devOps": {
 				"title": "DevOps",
-				"contentText": "Compétente en automatisation et intégration des processus entre le développement logiciel et les opérations IT. Maîtrise les pipelines CI/CD et la conteneurisation avec Docker."
+				"contentText": "Compétent en automatisation et intégration des processus entre le développement logiciel et les opérations IT. Maîtrise les pipelines CI/CD et la conteneurisation avec Docker."
 			}
 		}
 	},
 	"aboutMePage": {
 		"title": "À PROPOS DE MOI",
-		"paragraph_one": "Je suis une étudiante en ingénierie avec une spécialisation en mathématiques appliquées et modélisation, dotée de compétences analytiques pour résoudre des problèmes complexes. Mon parcours académique couvre la probabilité, les statistiques et le développement logiciel, me permettant de développer mes connaissances en IA et en science des données. Au-delà de cela, mon vif intérêt pour les technologies de pointe, associé à ma passion artistique, m'a propulsée dans le domaine du design.",
+		"paragraph_one": "Je suis un ingénieur logiciel avec une expertise en développement Full Stack et en analyse de données. Au fil de mon parcours, j'ai construit une solide base en programmation, en conception de systèmes et en gestion de projets. Ma passion réside dans la création de solutions logicielles impactantes, la résolution de défis complexes en ingénierie des données et le développement d'applications web innovantes. Porté par une curiosité insatiable et un engagement envers l'excellence, je m'efforce continuellement d'apprendre, d'innover et de contribuer de manière significative à l'évolution constante du monde technologique.",
 		"github_card": {
-			"bio": "🧑‍💻 Passionnée d'IA",
-			"bio1": "📚 Étudiante en génie Mathématiques Appliquées et Modélisation.",
+			"bio": "🧑‍💻 génie logiciel",
+			"bio1": "📚 Ingénierie des logiciels et des données.",
 			"bio2": "PROJET",
 			"followers": "Abonnés",
 			"following": "Abonnements",
 			"repos": "Dépôts"
 		},
 		"pdf": "curriculoPTBR",
-		"alt_dev_img": "Nawres Zaidoun"
+		"alt_dev_img": "Aziz Lachtar"
 	},
 	"portifolioPage": {
 		"title": "PROJETS",
@@ -55,43 +55,56 @@
 		"createdLabel": "Créé à",
 		"projects": {
 			"id_1": {
-				"title": "Reconnaissance de la langue des signes par traitement d'image",
-				"description": "En cours de développement ..."
-		  	},
-		  	"id_2": {
-				"title": "Estimation des prix des voitures d'occasion",
-				"description": "Prédiction des prix des voitures d'occasion sur le marché allemand, création d'une plateforme et intégration d'un chatbot sur le site, le tout développé en allemand."
-		  	},
+				"title": "IoT_Traffic_Monitor",
+				"description": "La surveillance des données de trafic exploite les données IoT en temps réel des véhicules connectés pour surveiller le trafic sur différentes routes. Elle se compose de trois applications Maven autonomes écrites en Java : le producteur de données IoT, le processeur de données IoT et le tableau de bord des données IoT. Chaque module a un objectif spécifique dans le traitement et la présentation des données de trafic pour l'analyse et la visualisation. Le projet utilise Apache Kafka pour le streaming de messages, Spark Streaming pour le traitement des données, Cassandra pour le stockage des données, et Spring Boot pour le développement d'applications web."
+			},
+			"id_2": {
+				"title": "StreamAggSync",
+				"description":"StreamAggSync est un système de traitement de données piloté par événements conçu pour interagir en temps réel avec une plateforme bancaire en ligne. Ce système consomme des données provenant de sujets Kafka générés lors de la simulation d'événements bancaires dans l'environnement bancaire. Il exploite Spark Structured Streaming pour une consommation efficace des messages Kafka, une agrégation intelligente et le stockage des données agrégées dans des bases de données PostgreSQL. Le projet vise à faciliter l'analyse en temps réel et le stockage fiable de données provenant de divers sujets Kafka, spécifiquement dans le domaine de la réglementation bancaire et de la gestion des risques."
+			},
 			"id_3": {
-				"title": "Analyse du sentiment sur Twitter utilisant le TAL",
-				"description": "Développement d'une application web pour analyser les tweets et classifier leur sentiment comme positif, négatif ou neutre en utilisant le traitement automatique du langage naturel."
+				"title": "Event-driven Banking Data Producer",
+				"description":"L'Event-driven Banking Data Producer est une application basée sur Java construite avec Spring Boot et Apache Kafka. Elle agit en tant que producteur Kafka, générant des données liées aux opérations bancaires telles que les informations sur les comptes, les détails des clients, les soldes des comptes et les transactions. L'application fournit des API pour la consommation et le stockage des données dans des sujets Kafka, créant dynamiquement des sujets pour chaque modèle de données."
 			},
 			"id_4": {
-				"title": "Projet d'authentification par empreinte digitale avec retour émotionnel",
-				"description": "Création d'une plateforme web pour les administrateurs de centres culturels pour suivre les visiteurs dans différentes salles, construire des profils incluant les informations des visiteurs, notamment leur empreinte digitale, qui sera reconnue à travers un modèle d'apprentissage profond. + Développement d'une application web pour identifier et interpréter les expressions émotionnelles sur les visages des visiteurs, capturant leurs réactions pour recueillir des retours."
+				"title": "E-Commerce App with Microservices Architecture",
+				"description":"L'application E-Commerce est une application évolutive et résiliente construite avec une architecture de microservices utilisant Java Spring Boot. Elle se compose de plusieurs modules, dont une passerelle API, un service de découverte, un service d'inventaire, un service de notification utilisant Apache Kafka pour le streaming de données asynchrone en temps réel et la gestion des événements. L'application garantit une communication transparente entre les microservices et une disponibilité élevée en utilisant Netflix Eureka."
 			},
 			"id_5": {
-				"title": "Analyse des accidents de la route",
-				"description": "Analyse des accidents de la route en utilisant des requêtes SQL pour l'extraction de données et en employant des techniques de nettoyage et de visualisation de données, notamment avec l'utilisation de Power BI. Les résultats sont présentés à travers des tableaux de bord interactifs pour une compréhension globale."
+				"title": "Bank Management System",
+				"description":"Le système de gestion bancaire est une application sécurisée et efficace conçue pour faciliter les interactions entre les employés de la banque et les clients dans un environnement bancaire. Il est construit sur l'architecture Modèle-Vue-Contrôleur (MVC) en utilisant ASP.NET Core MVC avec C# et des pages Razor. Le système assure une sécurité robuste et une authentification en utilisant ASP.NET Core Identity."
 			},
+
 			"id_6": {
-				"title": "Application de reconnaissance des émotions faciales",
-				"description": "Ce projet vise à mettre en œuvre un système de détection des émotions qui utilise la vision par ordinateur et les techniques d'apprentissage profond au sein d'une application Flask permettant aux utilisateurs de télécharger des images et de recevoir des résultats d'analyse des sentiments."
+				"title": "Cafe Management System - Backend",
+				"description":"Le backend du système de gestion de café est construit en Java et Spring Boot, offrant des fonctionnalités robustes pour la gestion des catégories de produits, la génération de factures et la mise en œuvre de l'authentification et de l'autorisation sécurisées. Il garantit une manipulation et un traitement efficaces des données, répondant aux besoins des propriétaires ou gestionnaires de cafés."
 			},
 			"id_7": {
-				"title": "Application de prédiction des promotions pour l'engagement des abonnés",
-				"description": "Ce projet se concentre sur la prédiction des promotions pour les abonnés en utilisant l'apprentissage automatique. Il implique le prétraitement des données, l'analyse et le développement d'une application Streamlit."
+				"title": "Cafe Management System - Frontend",
+				"description":"Le frontend du système de gestion de café est construit avec Angular, offrant une interface utilisateur intuitive pour une gestion efficace des produits et le traitement des commandes. Il offre une expérience fluide aux propriétaires ou gestionnaires de cafés pour interagir avec le système, facilitant la navigation et l'accès aux fonctionnalités clés."
 			},
 			"id_8": {
-				"title": "Détection de l'adultération du miel en utilisant l'imagerie hyperspectrale et l'apprentissage automatique",
-				"description": "Ce projet utilise les longueurs d'onde d'une caméra hyperspectrale (400nm à 1064nm) et l'apprentissage automatique avec des GANs dans TensorFlow pour détecter les anomalies et identifier le miel frauduleux en reconnaissant les motifs spectraux associés à l'adultération."
+				"title": "Search Engine App",
+				"description":"L'application de moteur de recherche en C++ est un outil complet conçu pour indexer et rechercher efficacement à travers plusieurs fichiers. Elle se compose de divers composants, y compris un lecteur de fichiers, un analyseur, un générateur de statistiques, un indexeur, un ordonnanceur et un moteur de recherche. Ce projet vise à concevoir un système de recherche pour récupérer et afficher des résultats de recherche précieux à partir de documents étendus, en appliquant la programmation orientée objet pour améliorer la modularité, la maintenabilité et la réutilisabilité du code."
+			},
+			"id_9": {
+				"title": "Algorithmes bio-inspirés",
+				"description": "Ce projet de recherche a porté sur les algorithmes bio-inspirés, explorant des méthodes computationnelles issues de processus naturels tels que l'évolution, l'intelligence collective et les systèmes biologiques. L'étude a examiné des techniques comme les algorithmes génétiques, l'optimisation par essaims particulaires et l'optimisation par colonies de fourmis, en les appliquant à des problèmes d'optimisation complexes, mettant en évidence leur potentiel pour améliorer l'efficacité et l'adaptabilité dans divers domaines."
+			},
+			"id_10": {
+				"title": "Développement d’un système de  reconnaissance des états émotionnels  par analyse des données physiologiques  et apprentissage machine.",
+				"description": "Ce projet consiste à développer un système capable de reconnaître les états émotionnels à partir de données physiologiques, telles que le rythme cardiaque et la conductance de la peau. En utilisant des algorithmes d'apprentissage machine, le système analyse les schémas dans les données pour classifier les émotions, avec pour objectif d'améliorer les interactions homme-machine et de fournir des informations sur le bien-être émotionnel."
 			}
-		}  
+		}
 	},
 	"experiencePage": {
 		"title": "EXPÉRIENCE",
 		"timeline": {
 			"labelPosition": "Poste",
+			"doca": "Stagiaire ingenieur logiciel JAVA",
+			"doca": "Stagiaire ingenieur JAVA",
+			"vermeg": "Stagiaire ingénierie des logiciels et des données",
+			"stb": "Stagiare en développement Web",
 			"labelTitle": "Domaine d'études",
 			"labelCompany": "Entreprise",
 			"labelCategory": "Diplôme",
@@ -100,11 +113,11 @@
 			"labelBachelorDegree": "Diplôme d'Ingénieur",
 			"labelExtensionCourse": "Cours de perfectionnement",
 			"labelBachelor": "Baccalauréat",
-			"fieldofstudy": "mathématiques - physiques",
-			"ensit": " Ecole Nationale Supérieure d'ingénieurs de Tunis",
+			"fieldofstudy": "Physiques - Chimie",
+			"ensit": " Ecole Nationale d'ingénieurs de Tunis",
 			"ipeit": "Institut Préparatoire aux Etudes d'Ingénieurs de Tunis",
-			"fieldensit": "Mathématiques appliquées et modélisation",
-			"bacfield": "Baccalauréat en mathématiques"
+			"fieldensit": "Génie informatique",
+			"bacfield": "Sciences expérimentales"
 
 
 		}

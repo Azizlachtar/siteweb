@@ -13,8 +13,8 @@ import SocialNetworkRowStack from "@/components/SocialNetworkRowStack";
 import CarrouselTechs from "@/components/CarrouselTechs";
 
 //PDFs
-import curriculoPTBR from "../public/pdf/CV_Nawres_Zaidoun_FR.pdf";
-import curriculoENUS from "../public/pdf/CV_Nawres_Zaidoun_EN.pdf";
+import curriculoPTBR from "../public/pdf/Cv_Aziz_Lachtar.pdf";
+import curriculoENUS from "@/public/pdf/resume_Aziz_Lachtar.pdf";
 
 const WrapperAboutMe = styled.div`
 	display: flex;
@@ -126,7 +126,7 @@ const GithubStatsCard = styled.div`
 	justify-content: flex-start;
 	width: 300px;
 	height: 420px;
-	//border: 2px solid ${(props) => props.theme.colors.backgroundSecondary};
+		//border: 2px solid ${(props) => props.theme.colors.backgroundSecondary};
 	background-color: ${(props) => props.theme.colors.backgroundPage};
 	border-radius: 8px;
 	flex-direction: column;
@@ -196,7 +196,7 @@ const GithubStatsCard = styled.div`
 		justify-content: space-evenly;
 		width: 90%;
 		height: 60px;
-		//background: ${(props) => props.theme.colors.backgroundSecondary};
+			//background: ${(props) => props.theme.colors.backgroundSecondary};
 		border-radius: 8px;
 		padding: 10px;
 		position: absolute;
@@ -273,7 +273,7 @@ export default function SobreMim(props) {
 
 	useEffect(() => {
 		async function fetchGithubStats() {
-			const response = await fetch("https://api.github.com/users/nawresZ");
+			const response = await fetch("https://api.github.com/users/Azizlachtar");
 			const json = await response.json();
 			setGithubUserData(json);
 		}
@@ -290,7 +290,7 @@ export default function SobreMim(props) {
 							<GithubStatsCard>
 								<div className="background" />
 								<div className="img">
-									<Image src="/img/user-photo.jpg" alt={language.aboutMePage.alt_dev_img} layout="fill" objectFit="cover" className="image-rounded" />
+									<Image src="/img/imageaziz.jpg" alt={language.aboutMePage.alt_dev_img} layout="fill" objectFit="cover" className="image-rounded" />
 								</div>
 								<div className="content">
 									<h3>{githubUserData?.name}</h3>
@@ -322,17 +322,18 @@ export default function SobreMim(props) {
 							<h3>{language.aboutMePage.title}</h3>
 							<p>{language.aboutMePage.paragraph_one}</p>
 							<div className="tech-and-cv">
-  							<SocialNetworkRowStack />
-  									{language.aboutMePage.pdf === 'curriculoENUS' ? (
-    								<ButtonCV href={curriculoENUS} target="_blank" data-splitbee-event="Download CV">
-      									Download CV
-    								</ButtonCV>
-  									) : language.aboutMePage.pdf === 'curriculoPTBR' ? (
-    								<ButtonCV href={curriculoPTBR} target="_blank" data-splitbee-event="Download CV">
-									    Télécharger CV
-    								</ButtonCV>
-  									) : null}
-</div>
+								<SocialNetworkRowStack />
+								{language.aboutMePage.pdf === 'curriculoENUS' ? (
+									<ButtonCV href={curriculoENUS} target="_blank" data-splitbee-event="Download CV">
+										Download CV
+									</ButtonCV>
+								) : language.aboutMePage.pdf === 'curriculoPTBR' ? (
+									<ButtonCV href={curriculoPTBR} target="_blank" data-splitbee-event="Download CV">
+										Télécharger CV
+									</ButtonCV>
+								) : null}
+							</div>
+
 
 						</ScrollAnimation>
 					</div>

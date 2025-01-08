@@ -8,26 +8,26 @@
 		"labelExperience": "EXPERIENCE"
 	},
 	"landingPage": {
-		"apresentationText": "Hello World,",
+		"apresentationText": "Hello,",
 		"firstTypeText": "the Dev you need...",
-		"secondTypeText": "Nawres Zaidoun",
-		"resumeText": "Nawres, meaning 'seagull' in Arabic, symbolizes my pursuit of knowledge, much like a seagull's mastery of the skies. My passion for exploring the vast, ocean-like depths of mathematics and its critical applications in computer science drives me to seek out solutions to complex problems, mirroring a seagull's relentless exploration along the shore.",
+		"secondTypeText": "Aziz Lachtar",
+		"resumeText": "I’m a passionate Full Stack Software Engineer who loves turning complex ideas into digital solutions. With a strong foundation in software development, I find joy in crafting systems that are both efficient and intuitive. Whether I’m diving into data engineering challenges or building dynamic web applications, my approach is fueled by curiosity and a drive to create meaningful impact. Beyond code, I see each project as a canvas to innovate and grow, embracing every opportunity to learn and contribute to the ever-evolving world of technology.",
 		"buttonText": "Learn more"
 	},
 	"servicesOffer": {
 		"title": "My Domains",
 		"cards": {
-			"dataAnalytics": {
-				"title": "Data Analytics",
-				"contentText": "Expert in analyzing data to derive actionable insights. Proficient in statistical analysis, predictive modeling, and data visualization. Utilizes SQL, Python, and R for data manipulation and analysis. Experienced in applying machine learning algorithms to solve real-world problems and enhance decision-making processes."
+			"bigData": {
+				"title": "Big Data",
+				"contentText":"I possess a deep understanding of data management, analysis, and visualization techniques, empowering organizations to derive actionable insights from vast and diverse datasets. Leveraging tools and platforms such as Hadoop, Spark, and Apache Kafka, I design and implement scalable data pipelines that efficiently process, transform, and analyze data in real-time."
 			},
-			"artificialIntelligence": {
-				"title": "Artificial Intelligence",
-				"contentText": "Specializes in developing AI solutions to automate tasks and solve complex challenges. Skills in machine learning, deep learning, NLP, and computer vision. Utilizes frameworks like TensorFlow and PyTorch to build and implement models that improve efficiency and innovation."
+			"softwareDevelopment": {
+				"title": "Software Development",
+				"contentText": "I am adept at conceptualizing, designing, and implementing software solutions that address complex business challenges. With proficiency in multiple programming languages such as Python, Java, and C++, I have developed a diverse range of applications, from enterprise-level systems to mobile apps, employing best practices in software engineering and agile methodologies throughout the development lifecycle."
 			},
 			"webDevelopment": {
 				"title": "Web Development",
-				"contentText": "Expertise in front-end and back-end development for creating dynamic, user-centered web applications. Proficient with HTML, CSS, JavaScript, and modern frameworks like Spring boot and Angular. Focuses on responsive design, performance optimization, and cross-browser compatibility."
+				"contentText":"I specialize in crafting visually captivating websites with seamless functionality across platforms. Proficient in HTML5, CSS3, and JavaScript, I create engaging user interfaces that leave a lasting impression. My expertise extends to back-end development using frameworks like SpringBoot and .NET, ensuring robust and scalable web applications tailored to client needs."
 			},
 			"devOps": {
 				"title": "DevOps",
@@ -37,17 +37,17 @@
 	},
 	"aboutMePage": {
 		"title": "ABOUT ME",
-		"paragraph_one": "I'm an engineering student with a focus on applied mathematics and modeling, equipped with analytical skills for intricate problem-solving. My academic background encompasses probability, statistics and software development, allowing me to develop my knowledge in AI and data science. Beyond this, my keen interest in cutting-edge technology, coupled with my artistic passion, propelled me into the design sphere.",
+		"paragraph_one": "I am a software engineer with a strong focus on full stack development and data analysis. Over the course of my career, I have built a solid foundation in programming, system design, and project management. My passion lies in creating impactful software solutions, tackling complex data engineering challenges, and building innovative web applications. Fueled by curiosity and a commitment to excellence, I continuously strive to learn, innovate, and contribute meaningfully to the ever-evolving world of technology.",
 		"github_card": {
-			"bio": "🧑‍💻 AI enthusiast",
-			"bio1": "📚 Applied Mathematics and Modeling Engineering student.",
+			"bio": "🧑‍💻 Software engineer",
+			"bio1": "📚 Software and Data Engineering.",
 			"bio2": "PROJECT",
 			"followers": "Followers",
 			"following": "Following",
 			"repos": "Repos"
 		},
 		"pdf": "curriculoENUS",
-		"alt_dev_img": "Nawres Zaidoun"
+		"alt_dev_img": "Aziz Lachtar"
 	},
 	"portifolioPage": {
 		"title": "PROJECTS",
@@ -55,43 +55,56 @@
 		"createdLabel": "Created at",
 		"projects": {
 			"id_1": {
-				"title": "Sign Language Recognition Using Image Processing",
-				"description": "N/A"
+				"title": "IoT_Traffic_Monitor",
+				"description": "The Traffic Data Monitoring project leverages real-time IoT data from connected vehicles to monitor traffic on different routes. It consists of three standalone Maven applications written in Java: IoT Data Producer, IoT Data Processor, and IoT Data Dashboard. Each module serves a specific purpose in processing and presenting traffic data for analysis and visualization. The project utilizes Apache Kafka for message streaming, Spark Streaming for data processing, Cassandra for data storage, and Spring Boot for web application development."
 			},
 			"id_2": {
-				"title": "Schätzung der Gebrauchtwagenpreise",
-				"description": "Predicting used car prices in the German market, creating a platform, and integrating a chatbot onto the site, all developed in German."
+				"title": "StreamAggSync",
+				"description": "StreamAggSync-master is an event-driven data processing system designed to interact in real-time with an online banking platform. This system consumes data from Kafka topics generated during the simulation of banking events within the banking environment. It leverages Spark Structured Streaming for efficient consumption of Kafka messages, intelligent aggregation, and storage of aggregated data in PostgreSQL databases. The project aims to facilitate real-time analysis and reliable storage of data from various Kafka topics, specifically within the domain of Banking Regulation and Risk Management.\n\n"
 			},
 			"id_3": {
-				"title": "Twitter Sentiment Analysis using NLP",
-				"description": "Development of a web application to analyze tweets and classify their sentiment as positive, negative, or neutral using natural language processing."
+				"title": "Event-driven Banking Data Producer",
+				"description": "The Event-driven Banking Data Producer is a Java-based application built with Spring Boot and Apache Kafka. It acts as a Kafka producer, generating data related to banking operations such as account information, customer details, account balances, and transactions. The application provides APIs for consuming and storing data in Kafka topics, dynamically creating topics for each model of data."
 			},
 			"id_4": {
-				"title": "Fingerprint Authentication Project with Emotional Feedback",
-				"description": "Creating a web platform for cultural center administrators to track visitors in various rooms, building profiles that include visitor information, notably their fingerprint, which will be recognized through a deep learning model. + Developing a web application to identify and interpret emotional expressions on visitors' faces, capturing their reactions to gather feedback."
+				"title": "E-Commerce App with Microservices Architecture",
+				"description": "The E-Commerce App is a scalable and resilient application built with a microservices architecture using Java Spring Boot. It consists of several modules including API Gateway, Discovery Service, Inventory Service, Notification Service utilizing Apache Kafka for asynchronous real-time data streaming and event management. The application ensures seamless communication between microservices and high availability using Netflix Eureka.\n\n"
 			},
 			"id_5": {
-				"title": "Road Accident Analysis",
-				"description": "Analyzing road accidents by leveraging SQL queries for data extraction and employing data cleaning and visualization techniques, including the use of Power BI. The findings are presented through interactive dashboards for comprehensive insights."
+				"title": "Bank Management System",
+				"description":"The Bank Management System is a secure and efficient application designed to facilitate interactions between bank employees and clients within a banking environment. It is built on the Model-View-Controller (MVC) architecture using ASP.NET Core MVC with C# and Razor Pages. The system ensures robust security and authentication using ASP.NET Core Identity."
 			},
 			"id_6": {
-				"title": "Facial Emotion Recognition App",
-				"description": "This project aims to implement an emotion detection system that utilizes computer vision and deep learning techniques within a Flask application that allows users to upload images and receive sentiment analysis results."
+				"title": "Cafe Management System - Backend",
+				"description": "The backend of the Cafe Management System is built using Java and Spring Boot, providing robust functionalities for managing product categories, generating bills, and implementing secure authentication and authorization. It ensures efficient data handling and processing, catering to the needs of cafe owners or managers."
 			},
 			"id_7": {
-				"title": "Promotions Prediction App for Subscriber Engagement",
-				"description": "This project focuses on predicting promotions for subscribers using machine learning. It involves data preprocessing, analysis, and the development of a Streamlit app."
+				"title": "Cafe Management System - Frontend",
+				"description": "The frontend of the Cafe Management System is built using Angular, providing an intuitive user interface for efficient product management and order processing. It offers a seamless experience for cafe owners or managers to interact with the system, facilitating easy navigation and access to key functionalities."
 			},
 			"id_8": {
-				"title": "Honey Adulteration Detection using Hyperspectral Imaging and Machine Learning",
-				"description": "This project uses hyperspectral camera wavelengths (400nm to 1064nm) and machine learning with GANs in TensorFlow to detect anomalies and identify fraudulent honey by recognizing spectral patterns associated with adulteration."
+				"title": "Search Engine App",
+				"description": "The C++ Search Engine App is a comprehensive tool designed to index and search through multiple files efficiently. It consists of various components including a file reader, analyzer, statistics generator, indexer, scheduler, and search engine. This project aims at designing a search system to retrieve and display valuable search results from extensive documents, applying object-oriented programming to enhance code modularity, maintainability, and reusability."
+			},
+			"id_9": {
+				"title": "BIO-INSPIRED ALGORITHMS",
+				"description": "This research project focused on bio-inspired algorithms, exploring computational methods derived from natural processes such as evolution, swarm intelligence, and biological systems. The study examined techniques like genetic algorithms, particle swarm optimization, and ant colony optimization, applying them to solve complex optimization problems and demonstrating their potential in enhancing efficiency and adaptability in various domains."
+			},
+			"id_10": {
+				"title": "Development of an Emotional State Recognition System Through Physiological Data Analysis and Machine Learning",
+				"description": "This project involves developing a system that leverages physiological data, such as heart rate and skin conductance, to recognize emotional states. By applying machine learning algorithms, the system analyzes patterns in the data to classify emotions, aiming to improve human-computer interaction and provide insights into emotional well-being."
 			}
+
 		}
 	},
 	"experiencePage": {
 		"title": "EXPERIENCE",
 		"timeline": {
 			"labelPosition": "Position",
+			"BNP": " Software Engineering Intern",
+			"doca": "Software Engineering Intern",
+			"vermeg": " Software and Data Engineering Intern",
+			"stb": "Web Development Intern",
 			"labelTitle": "Field of Study",
 			"labelCompany": "Company",
 			"labelCategory": "Degree",
@@ -100,11 +113,11 @@
 			"labelBachelorDegree": "Engineering degree",
 			"labelExtensionCourse": "Extension course",
 			"labelBachelor": "Bachelor's degree",
-			"fieldofstudy": "Mathematics - Physics",
-			"ensit": " Higher National Engineering School of Tunis",
+			"fieldofstudy": "Physics - Chemistry",
+			"ensit": "National Engineering School of Tunis",
 			"ipeit": "Tunis Preparatory Engineering Institute",
-			"fieldensit": "Applied Mathematics and Modeling",
-			"bacfield": "Mathematics Bachelor"
+			"fieldensit": "Software Engineering",
+			"bacfield": "Baccalaureate in Experimental Sciences"
 
 
 

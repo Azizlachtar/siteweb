@@ -154,7 +154,7 @@ const WrapperTextChip = styled.div`
 
 	div {
 		span {
-			//border: 1px solid ${(props) => props.theme.colors.branding};
+				//border: 1px solid ${(props) => props.theme.colors.branding};
 			color: ${(props) => props.theme.colors.inactiveTitle};
 			font-size: 12px;
 			font-weight: 800;
@@ -220,14 +220,14 @@ const WrapperButtons = styled.div`
 	transition: all 0.3s ease;
 
 	a {
-		//background-color: ${(props) => props.theme.colors.branding};
+			//background-color: ${(props) => props.theme.colors.branding};
 		display: flex;
 		align-items: center;
 		justify-content: center;
 		text-decoration: none;
 		padding: 5px;
 		color: ${(props) => props.theme.colors.branding};
-		//border: solid 1px ${(props) => props.theme.colors.branding};
+			//border: solid 1px ${(props) => props.theme.colors.branding};
 		border-radius: 4px;
 		//margin-left: 3px;
 	}
@@ -295,8 +295,8 @@ export default function Portifolio() {
 			description: language.portifolioPage.projects.id_1.description,
 			liveDemoUrl: null,
 			techs: [],
-			sourceCodeLink: "https://github.com/nawresZ",
-			typeProject: ["PFA2"],
+			sourceCodeLink: "https://github.com/Azizlachtar/IoT_Traffic_Monitor",
+			typeProject: ["PROJET"],
 			created_at: "Feb 2024",
 		},
 		{
@@ -305,8 +305,8 @@ export default function Portifolio() {
 			description: language.portifolioPage.projects.id_2.description,
 			liveDemoUrl: null,
 			techs: [],
-			sourceCodeLink: "https://github.com/nawresZ/PFA-1",
-			typeProject: ["PFA1"],
+			sourceCodeLink: "https://github.com/Azizlachtar/StreamAggSync-master",
+			typeProject: ["PROJET"],
 			created_at: "Feb 2023",
 		},
 		{
@@ -315,7 +315,7 @@ export default function Portifolio() {
 			description: language.portifolioPage.projects.id_3.description,
 			liveDemoUrl: null,
 			techs: [],
-			sourceCodeLink: "https://github.com/nawresZ/Emotion-Recognition-Website",
+			sourceCodeLink: "https://github.com/Azizlachtar/Event-drivenBankingDataProducer",
 			typeProject: ["PROJET"],
 			created_at: "Mar 2023",
 		},
@@ -325,7 +325,7 @@ export default function Portifolio() {
 			description: language.portifolioPage.projects.id_4.description,
 			liveDemoUrl: null,
 			techs: [],
-			sourceCodeLink: "https://github.com/nawresZ/FingerPrint-model",
+			sourceCodeLink: "https://github.com/Azizlachtar/microservicesProject",
 			typeProject: ["PROJET"],
 			created_at: "Oct 2023",
 		},
@@ -335,7 +335,7 @@ export default function Portifolio() {
 			description: language.portifolioPage.projects.id_5.description,
 			liveDemoUrl: null,
 			techs: [],
-			sourceCodeLink: "https://github.com/nawresZ/Road-Accident-Analysis",
+			sourceCodeLink: "https://github.com/Azizlachtar/BankManagementSytem",
 			typeProject: ["PROJET"],
 			created_at: "Oct 2023",
 		},
@@ -345,7 +345,7 @@ export default function Portifolio() {
 			description: language.portifolioPage.projects.id_6.description,
 			liveDemoUrl: null,
 			techs: [],
-			sourceCodeLink: "https://github.com/nawresZ/projet-stage",
+			sourceCodeLink: "https://github.com/Azizlachtar/CafeManagementSystem",
 			typeProject: ["PROJET"],
 			created_at: "Apr 2023",
 		},
@@ -355,9 +355,9 @@ export default function Portifolio() {
 			description: language.portifolioPage.projects.id_7.description,
 			liveDemoUrl: null,
 			techs: [],
-			sourceCodeLink: "https://github.com/nawresZ/Fire-detection",
+			sourceCodeLink: "https://github.com/Azizlachtar/cafe-angular-frontend",
 			typeProject: ["PROJET"],
-			created_at: "Feb 2023",
+			created_at: "Apr 2023",
 		},
 		{
 			id: 8,
@@ -365,10 +365,31 @@ export default function Portifolio() {
 			description: language.portifolioPage.projects.id_8.description,
 			liveDemoUrl: null,
 			techs: [],
-			sourceCodeLink: "https://github.com/nawresZ/Brain-tumor-classification",
+			sourceCodeLink: "https://github.com/Azizlachtar/SearchEngine",
 			typeProject: ["PROJET"],
-			created_at: "Jan 2023",
+			created_at: "Apr 2023",
 		},
+		{
+			id: 8,
+			title: language.portifolioPage.projects.id_9.title,
+			description: language.portifolioPage.projects.id_9.description,
+			liveDemoUrl: null,
+			techs: [],
+			sourceCodeLink: "https://github.com/Azizlachtar/BIO-INSPIRED-ALGORITHMS",
+			typeProject: ["PFA1"],
+			created_at: "Apr 2023",
+		},
+		{
+			id: 10,
+			title: language.portifolioPage.projects.id_10.title,
+			description: language.portifolioPage.projects.id_10.description,
+			liveDemoUrl: null,
+			techs: [],
+			sourceCodeLink: "https://github.com/Azizlachtar/Emotional-State-Recognition-System-Through-Physiological-Data-Analysis-and-Machine-Learning.git",
+			typeProject: ["PFA2"],
+			created_at: "Apr 2023",
+		},
+
 	];
 
 	function handleFilter(id) {

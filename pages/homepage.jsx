@@ -164,9 +164,9 @@ export default function HomePage() {
 			<FloatNavigationBar />
 			<ProgressBar color={theme.colors.branding} height={5} />
 			<Head
-				title="Nawres Zaidoun | Portfolio"
-				metaDescription="Nawres Zaidoun | Portfolio"
-				keywords="Nawres Zaidoun, Nawres, Zaidoun, AI, ML-SWE"
+				title="Aziz Lachtar | Portfolio"
+				metaDescription="Aziz Lachtar | Portfolio"
+				keywords="Aziz Lachtar, Aziz, Lachtar, Software Engineering"
 			/>
 			<LandingPageContainer>
 				<TitleLandingContainer>
