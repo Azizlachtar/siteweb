@@ -1,11 +1,14 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import styled from "styled-components";
-import Lottie from "react-lottie";
+import dynamic from "next/dynamic";
 import { useTheme } from "styled-components";
 
-// Assuming the paths to the Lottie JSON files are correct
+// Import animations
 const AnimationYellowBackground = require("@/public/lotties/landing-page-yellow.json");
 const AnimationLightBackground = require("@/public/lotties/landing-page-light.json");
+
+// Dynamically import Lottie without SSR
+const Lottie = dynamic(() => import("react-lottie"), { ssr: false });
 
 const ContainerLottie = styled.div`
   width: 800px;
@@ -14,7 +17,7 @@ const ContainerLottie = styled.div`
   justify-content: center;
   align-items: center;
   transition: all 0.3s ease;
-  background-color: transparent; /* for contrast to see the container */
+  background-color: transparent;
 
   @media (max-width: 1400px) {
     width: 700px;
@@ -32,8 +35,8 @@ const ContainerLottie = styled.div`
   }
 
   @media (max-width: 425px) {
-    width: 100%; /* Adjusts width to full container size on smaller screens */
-    height: auto; /* Adjusts height automatically based on the aspect ratio */
+    width: 100%;
+    height: auto;
   }
 `;
 
@@ -42,7 +45,7 @@ const LottieWrapper = styled.div`
   max-height: 80%;
   width: 100%;
   height: 100%;
-  display: flex; /* Use flex to center the animation */
+  display: flex;
   justify-content: center;
   align-items: center;
 `;
@@ -54,10 +57,13 @@ const AnimationsToShow = {
 
 export default function LandingPageAnimation() {
   const theme = useTheme();
-  const [isStopped] = useState(false);
-  const [isPaused] = useState(false);
+  const [isClient, setIsClient] = useState(false);
 
-  var defaultOptions = {
+  useEffect(() => {
+    setIsClient(true); // Ensure Lottie is only rendered on the client
+  }, []);
+
+  const defaultOptions = {
     loop: true,
     autoplay: true,
     animationData: AnimationsToShow[theme.name],
@@ -67,15 +73,17 @@ export default function LandingPageAnimation() {
   };
 
   return (
-    <ContainerLottie>
-      <LottieWrapper>
-        <Lottie
-          options={defaultOptions}
-          isStopped={isStopped}
-          isPaused={isPaused}
-          isClickToPauseDisabled={true}
-        />
-      </LottieWrapper>
-    </ContainerLottie>
+      <ContainerLottie>
+        {isClient && ( // Render Lottie only on the client
+            <LottieWrapper>
+              <Lottie
+                  options={defaultOptions}
+                  isStopped={false}
+                  isPaused={false}
+                  isClickToPauseDisabled={true}
+              />
+            </LottieWrapper>
+        )}
+      </ContainerLottie>
   );
 }
